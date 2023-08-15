@@ -10,3 +10,11 @@
 section {
   padding-top: 5rem;
 }
+
+.foto-img {
+  width: 100%;
+}
+
+#foto .row > * {
+  padding: 0;
+}
