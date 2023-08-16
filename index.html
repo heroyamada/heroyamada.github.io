@@ -131,6 +131,40 @@
           </div>
         </div>
       </div>
+
+      <section id="my-velg">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Rims</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mv-3">
+              <div class="rims-box">
+                <h4 class="rims-name">Rcb</h4>
+                <img src="img/rims/rcb.png" alt="velg rcb" class="rims-img" />
+                <a href="#" class="btn btn-light rims-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mv-3">
+              <div class="rims-box">
+                <h4 class="rims-name">Rapido</h4>
+                <img src="img/rims/rapido.png" alt="velg rapido" class="rims-img" />
+                <a href="#" class="btn btn-light rims-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mv-3">
+              <div class="rims-box">
+                <h4 class="rims-name">Gtr</h4>
+                <img src="img/rims/gtr.png" alt="velg gtr" class="rims-img" />
+                <a href="#" class="btn btn-light rims-detail-button">Show Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -306,6 +340,14 @@
             console.log('Success!', response);
           })
           .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+    <script type="text/javascript" src="js/raw.githubusercontent.com_micku7zu_vanilla-tilt.js_master_dist_vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('.rims-box'), {
+        max: 35,
+        speed: 1000,
+        glare: true,
       });
     </script>
   </body>
